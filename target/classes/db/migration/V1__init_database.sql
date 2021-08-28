@@ -1,4 +1,4 @@
-use userclass;
+use university;
 
 create table address (
                          id integer not null auto_increment,

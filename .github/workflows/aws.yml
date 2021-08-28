@@ -19,7 +19,7 @@ jobs:
       - name: Build package with Maven
         run: mvn -B package --file pom.xml -Dmaven.test.skip=true
 
-      - name: Stop WTF API on server
+      - name: Stop techthink API on server
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.REMOTE_IP }}

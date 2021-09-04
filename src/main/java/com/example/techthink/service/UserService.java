@@ -1,6 +1,6 @@
 package com.example.techthink.service;
 
-import com.example.techthink.persistence.User;
+import com.example.techthink.persistence.model.User;
 import com.example.techthink.service.DTO.UserDTO;
 import org.springframework.security.core.userdetails.UserDetailsService;
 

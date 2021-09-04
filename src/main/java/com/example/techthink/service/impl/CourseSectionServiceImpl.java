@@ -1,8 +1,8 @@
 package com.example.techthink.service.impl;
 
-import com.example.techthink.persistence.CourseSection;
-import com.example.techthink.persistence.User;
-import com.example.techthink.persistence.User_Section;
+import com.example.techthink.persistence.model.CourseSection;
+import com.example.techthink.persistence.model.User;
+import com.example.techthink.persistence.model.User_Section;
 import com.example.techthink.persistence.repository.AssignmentRepository;
 import com.example.techthink.persistence.repository.CourseSectionRepository;
 import com.example.techthink.persistence.repository.UserSectionRepository;

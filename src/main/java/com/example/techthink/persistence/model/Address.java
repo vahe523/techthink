@@ -1,8 +1,11 @@
-package com.example.techthink.persistence;
+package com.example.techthink.persistence.model;
+
+import io.swagger.v3.oas.annotations.Hidden;
 
 import javax.persistence.*;
 
 @Entity
+@Hidden
 public class Address {
 
     @Id

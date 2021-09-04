@@ -1,6 +1,6 @@
 package com.example.techthink.service;
 
-import com.example.techthink.persistence.Course;
+import com.example.techthink.persistence.model.Course;
 import com.example.techthink.service.DTO.CourseDTO;
 
 import java.util.List;

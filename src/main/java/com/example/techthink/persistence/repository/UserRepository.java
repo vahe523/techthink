@@ -1,6 +1,6 @@
 package com.example.techthink.persistence.repository;
 
-import com.example.techthink.persistence.User;
+import com.example.techthink.persistence.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

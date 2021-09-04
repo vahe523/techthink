@@ -1,9 +1,6 @@
-package com.example.techthink.persistence;
-
-import com.fasterxml.jackson.annotation.JsonFormat;
+package com.example.techthink.persistence.model;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 import java.util.Date;
 
 @Entity

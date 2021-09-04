@@ -4,7 +4,7 @@ import com.example.techthink.annotation.Facade;
 import com.example.techthink.controller.model.CategoryRequest;
 import com.example.techthink.controller.model.CategoryResponse;
 import com.example.techthink.converter.Converter;
-import com.example.techthink.persistence.Category;
+import com.example.techthink.persistence.model.Category;
 import com.example.techthink.service.CategoryService;
 import com.example.techthink.service.DTO.CategoryDTO;
 

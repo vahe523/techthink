@@ -2,7 +2,7 @@ package com.example.techthink.service.impl;
 
 
 import com.example.techthink.config.UserPrincipal;
-import com.example.techthink.persistence.User;
+import com.example.techthink.persistence.model.User;
 import com.example.techthink.persistence.repository.UserSectionRepository;
 import com.example.techthink.persistence.repository.UserRepository;
 import com.example.techthink.service.DTO.UserDTO;

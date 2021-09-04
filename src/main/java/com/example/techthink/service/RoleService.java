@@ -1,6 +1,6 @@
 package com.example.techthink.service;
 
-import com.example.techthink.persistence.Role;
+import com.example.techthink.persistence.model.Role;
 
 public interface RoleService {
 

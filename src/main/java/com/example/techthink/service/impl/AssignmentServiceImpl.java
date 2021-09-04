@@ -1,7 +1,7 @@
 package com.example.techthink.service.impl;
 
-import com.example.techthink.persistence.Assignment;
-import com.example.techthink.persistence.CourseSection;
+import com.example.techthink.persistence.model.Assignment;
+import com.example.techthink.persistence.model.CourseSection;
 import com.example.techthink.persistence.repository.AssignmentRepository;
 import com.example.techthink.service.AssignmentService;
 import com.example.techthink.service.CourseSectionService;

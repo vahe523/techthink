@@ -4,7 +4,7 @@ import com.example.techthink.annotation.Facade;
 import com.example.techthink.controller.model.AddressRequest;
 import com.example.techthink.controller.model.AddressResponse;
 import com.example.techthink.converter.Converter;
-import com.example.techthink.persistence.Address;
+import com.example.techthink.persistence.model.Address;
 import com.example.techthink.service.AddressService;
 import com.example.techthink.service.DTO.AddressDTO;
 

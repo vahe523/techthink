@@ -4,7 +4,7 @@ import com.example.techthink.annotation.Facade;
 import com.example.techthink.controller.model.RegisterRequest;
 import com.example.techthink.controller.model.UserResponse;
 import com.example.techthink.converter.Converter;
-import com.example.techthink.persistence.User;
+import com.example.techthink.persistence.model.User;
 import com.example.techthink.persistence.repository.UserSectionRepository;
 import com.example.techthink.service.DTO.UserDTO;
 import com.example.techthink.service.UserService;

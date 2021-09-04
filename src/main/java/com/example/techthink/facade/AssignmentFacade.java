@@ -4,7 +4,7 @@ import com.example.techthink.annotation.Facade;
 import com.example.techthink.controller.model.AssignmentRequest;
 import com.example.techthink.controller.model.AssignmentResponse;
 import com.example.techthink.converter.Converter;
-import com.example.techthink.persistence.Assignment;
+import com.example.techthink.persistence.model.Assignment;
 import com.example.techthink.service.AssignmentService;
 import com.example.techthink.service.DTO.AssignmentDTO;
 

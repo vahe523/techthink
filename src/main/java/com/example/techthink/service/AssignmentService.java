@@ -1,6 +1,6 @@
 package com.example.techthink.service;
 
-import com.example.techthink.persistence.Assignment;
+import com.example.techthink.persistence.model.Assignment;
 import com.example.techthink.service.DTO.AssignmentDTO;
 
 import java.util.List;

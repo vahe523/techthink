@@ -1,6 +1,6 @@
 package com.example.techthink.service;
 
-import com.example.techthink.persistence.Address;
+import com.example.techthink.persistence.model.Address;
 import com.example.techthink.service.DTO.AddressDTO;
 
 import java.util.List;

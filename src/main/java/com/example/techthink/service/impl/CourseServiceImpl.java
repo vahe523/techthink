@@ -1,9 +1,9 @@
 package com.example.techthink.service.impl;
 
 
-import com.example.techthink.persistence.Course;
-import com.example.techthink.persistence.SubCategory;
-import com.example.techthink.persistence.SubCategory_Course;
+import com.example.techthink.persistence.model.Course;
+import com.example.techthink.persistence.model.SubCategory;
+import com.example.techthink.persistence.model.SubCategory_Course;
 import com.example.techthink.persistence.repository.CourseRepository;
 import com.example.techthink.persistence.repository.SubCategoryCourseRepository;
 import com.example.techthink.service.CourseService;

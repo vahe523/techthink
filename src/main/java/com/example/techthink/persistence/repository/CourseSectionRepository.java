@@ -1,6 +1,6 @@
 package com.example.techthink.persistence.repository;
 
-import com.example.techthink.persistence.CourseSection;
+import com.example.techthink.persistence.model.CourseSection;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

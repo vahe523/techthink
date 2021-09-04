@@ -1,6 +1,6 @@
 package com.example.techthink.service.impl;
 
-import com.example.techthink.persistence.Address;
+import com.example.techthink.persistence.model.Address;
 import com.example.techthink.persistence.repository.AddressRepository;
 import com.example.techthink.service.AddressService;
 import com.example.techthink.service.DTO.AddressDTO;

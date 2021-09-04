@@ -1,7 +1,7 @@
 package com.example.techthink.config;
 
-import com.example.techthink.persistence.Role;
-import com.example.techthink.persistence.User;
+import com.example.techthink.persistence.model.Role;
+import com.example.techthink.persistence.model.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

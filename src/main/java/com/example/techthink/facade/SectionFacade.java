@@ -5,7 +5,7 @@ import com.example.techthink.controller.model.CourseSectionRequest;
 import com.example.techthink.controller.model.CourseSectionResponse;
 import com.example.techthink.controller.model.SectionParticipantsResponse;
 import com.example.techthink.converter.Converter;
-import com.example.techthink.persistence.CourseSection;
+import com.example.techthink.persistence.model.CourseSection;
 import com.example.techthink.service.DTO.CourseSectionDTO;
 import com.example.techthink.service.impl.CourseSectionServiceImpl;
 

@@ -1,6 +1,6 @@
 package com.example.techthink.service;
 
-import com.example.techthink.persistence.SubCategory;
+import com.example.techthink.persistence.model.SubCategory;
 import com.example.techthink.service.DTO.SubCategoryDTO;
 
 import java.util.List;

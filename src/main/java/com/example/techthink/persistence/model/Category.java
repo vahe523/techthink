@@ -1,25 +1,33 @@
-package com.example.techthink.persistence;
+package com.example.techthink.persistence.model;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
-public class Format {
+public class Category {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Integer id;
 
-    @Enumerated(EnumType.STRING)
-    private FormatName name;
+    private String name;
 
 
-    public Format(Integer id, FormatName name) {
+    public Category() {
+    }
+
+    public Category(Integer id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public Format() {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Integer getId() {
@@ -28,13 +36,5 @@ public class Format {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    public FormatName getName() {
-        return name;
-    }
-
-    public void setName(FormatName name) {
-        this.name = name;
     }
 }

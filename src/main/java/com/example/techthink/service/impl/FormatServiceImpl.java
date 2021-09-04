@@ -1,6 +1,6 @@
 package com.example.techthink.service.impl;
 
-import com.example.techthink.persistence.Format;
+import com.example.techthink.persistence.model.Format;
 import com.example.techthink.persistence.repository.FormatRepository;
 import com.example.techthink.service.FormatService;
 import org.springframework.stereotype.Service;

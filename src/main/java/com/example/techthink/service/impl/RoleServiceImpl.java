@@ -1,6 +1,6 @@
 package com.example.techthink.service.impl;
 
-import com.example.techthink.persistence.Role;
+import com.example.techthink.persistence.model.Role;
 import com.example.techthink.persistence.repository.RoleRepository;
 import com.example.techthink.service.RoleService;
 import org.springframework.stereotype.Service;

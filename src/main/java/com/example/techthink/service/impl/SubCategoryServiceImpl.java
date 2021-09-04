@@ -1,7 +1,7 @@
 package com.example.techthink.service.impl;
 
-import com.example.techthink.persistence.Category;
-import com.example.techthink.persistence.SubCategory;
+import com.example.techthink.persistence.model.Category;
+import com.example.techthink.persistence.model.SubCategory;
 import com.example.techthink.persistence.repository.SubCategoryRepository;
 import com.example.techthink.service.CategoryService;
 import com.example.techthink.service.DTO.SubCategoryDTO;

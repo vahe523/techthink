@@ -1,4 +1,4 @@
-package com.example.techthink.persistence;
+package com.example.techthink.persistence.model;
 
 public enum FormatName {
     OFFLINE,

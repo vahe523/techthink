@@ -2,7 +2,7 @@ package com.example.techthink.converter;
 
 import com.example.techthink.annotation.Convert;
 import com.example.techthink.controller.model.*;
-import com.example.techthink.persistence.*;
+import com.example.techthink.persistence.model.*;
 import com.example.techthink.persistence.repository.SubCategoryCourseRepository;
 import com.example.techthink.persistence.repository.UserSectionRepository;
 import org.springframework.context.annotation.Bean;

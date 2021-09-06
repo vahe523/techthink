@@ -29,6 +29,7 @@ import java.io.InputStream;
 import java.util.List;
 
 @RestController
+@CrossOrigin("http://localhost:3000/")
 public class UserController {
 
     private final UserFacade userFacade;

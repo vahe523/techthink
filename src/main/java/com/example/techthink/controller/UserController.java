@@ -91,12 +91,14 @@ public class UserController {
                 .build();
 
         ObjectMetadata objectMetadata = new ObjectMetadata();
+        
+        //techthinkproject
 
-        PutObjectRequest requestFile = new PutObjectRequest("techthinkproject", file.getOriginalFilename(), inputStream, objectMetadata);
+        PutObjectRequest requestFile = new PutObjectRequest("teckthink", file.getOriginalFilename(), inputStream, objectMetadata);
         requestFile.withCannedAcl(CannedAccessControlList.PublicRead);
         PutObjectResult putObjectResult = s3Client.putObject(requestFile);
 
-        String pictureURL = s3Client.getUrl("techthinkproject", file.getOriginalFilename()).toExternalForm();
+        String pictureURL = s3Client.getUrl("teckthink", file.getOriginalFilename()).toExternalForm();
 
         ResponseEntity<UserResponse> body = ResponseEntity.status(HttpStatus.CREATED).body(userFacade.uploadPicture(user.getId(), pictureURL));
         return body;

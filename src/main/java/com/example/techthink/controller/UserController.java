@@ -78,9 +78,13 @@ public class UserController {
     public ResponseEntity<UserResponse> uploadProfPic(@AuthenticationPrincipal UserPrincipal user, @RequestPart MultipartFile file) throws IOException {
         InputStream inputStream = file.getInputStream();
 
+        //"AKIAWQHZ4UCXO2VY2VWT"
+        //"S7tGyJwrvJiGW2CSqBR0koV8eTCRMdWP/f02OJLv"
         AWSCredentials credentials = new BasicAWSCredentials(
-                "AKIAWQHZ4UCXO2VY2VWT",
-                "S7tGyJwrvJiGW2CSqBR0koV8eTCRMdWP/f02OJLv"
+                
+            "AKIA6QUEMR4IAS4FQ7UU",
+            "rjegIKvfqzxij3wG4bwCABhiOjkdzTv7CVMcyDZ6"
+                
         );
 
         AWSStaticCredentialsProvider awsStaticCredentialsProvider = new AWSStaticCredentialsProvider(credentials);

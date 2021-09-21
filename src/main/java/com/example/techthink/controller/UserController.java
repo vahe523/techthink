@@ -82,8 +82,8 @@ public class UserController {
         //"S7tGyJwrvJiGW2CSqBR0koV8eTCRMdWP/f02OJLv"
         AWSCredentials credentials = new BasicAWSCredentials(
                 
-            "AKIA6QUEMR4IAS4FQ7UU",
-            "rjegIKvfqzxij3wG4bwCABhiOjkdzTv7CVMcyDZ6"
+            "AKIA6QUEMR4ILMEEBVFY",
+            "E5vlbw4y0+Z91CrbCbeVqXu4XtCMdxyjEH6SLog3"
                 
         );
 

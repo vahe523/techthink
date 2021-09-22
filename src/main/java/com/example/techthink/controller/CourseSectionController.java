@@ -97,8 +97,8 @@ public class CourseSectionController {
 
 
         AWSCredentials credentials = new BasicAWSCredentials(
-                "AKIAWQHZ4UCXO2VY2VWT",
-                "S7tGyJwrvJiGW2CSqBR0koV8eTCRMdWP/f02OJLv"
+                "AKIA6QUEMR4ILMEEBVFY",
+                "E5vlbw4y0+Z91CrbCbeVqXu4XtCMdxyjEH6SLog3"
         );
 
         AWSStaticCredentialsProvider awsStaticCredentialsProvider = new AWSStaticCredentialsProvider(credentials);
@@ -110,11 +110,11 @@ public class CourseSectionController {
 
         ObjectMetadata objectMetadata = new ObjectMetadata();
 
-        PutObjectRequest requestFile = new PutObjectRequest("techthink", file.getOriginalFilename(), inputStream, objectMetadata);
+        PutObjectRequest requestFile = new PutObjectRequest("teckthink", file.getOriginalFilename(), inputStream, objectMetadata);
         requestFile.withCannedAcl(CannedAccessControlList.PublicRead);
         PutObjectResult putObjectResult = s3Client.putObject(requestFile);
 
-        String pictureURL = s3Client.getUrl("techthink", file.getOriginalFilename()).toExternalForm();
+        String pictureURL = s3Client.getUrl("teckthink", file.getOriginalFilename()).toExternalForm();
         //System.out.println(pictureURL);
 
         ResponseEntity<CourseSectionResponse> body = ResponseEntity.status(HttpStatus.CREATED).body(facade.setSectionPic(id, pictureURL));

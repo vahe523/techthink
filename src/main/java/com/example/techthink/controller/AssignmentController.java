@@ -42,13 +42,10 @@ public class AssignmentController {
 
         InputStream inputStream = file.getInputStream();
 
-        //accessKey: "AKIA6QUEMR4IAS4FQ7UU",
-        //secretKey: "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"
-
 
         AWSCredentials credentials = new BasicAWSCredentials(
-                "AKIA6QUEMR4IAS4FQ7UU",
-                "rjegIKvfqzxij3wG4bwCABhiOjkdzTv7CVMcyDZ6"
+                "AKIA6QUEMR4ILMEEBVFY",
+                "E5vlbw4y0+Z91CrbCbeVqXu4XtCMdxyjEH6SLog3"
         );
 
         AWSStaticCredentialsProvider awsStaticCredentialsProvider = new AWSStaticCredentialsProvider(credentials);

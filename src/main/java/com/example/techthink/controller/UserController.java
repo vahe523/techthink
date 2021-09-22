@@ -78,8 +78,7 @@ public class UserController {
     public ResponseEntity<UserResponse> uploadProfPic(@AuthenticationPrincipal UserPrincipal user, @RequestPart MultipartFile file) throws IOException {
         InputStream inputStream = file.getInputStream();
 
-        //"AKIAWQHZ4UCXO2VY2VWT"
-        //"S7tGyJwrvJiGW2CSqBR0koV8eTCRMdWP/f02OJLv"
+
         AWSCredentials credentials = new BasicAWSCredentials(
                 
             "AKIA6QUEMR4ILMEEBVFY",
@@ -95,8 +94,7 @@ public class UserController {
                 .build();
 
         ObjectMetadata objectMetadata = new ObjectMetadata();
-        
-        //techthinkproject
+
 
         PutObjectRequest requestFile = new PutObjectRequest("teckthink", file.getOriginalFilename(), inputStream, objectMetadata);
         requestFile.withCannedAcl(CannedAccessControlList.PublicRead);
